@@ -1,0 +1,27 @@
+.navbar{
+    width: 100%;
+    background-color: rgb(10, 11, 11);
+}
+
+.navbar .links{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+.links .shopping{
+    position:relative;
+    text-decoration: none;
+    color: rgb(234, 228, 228);
+    font-size: 34px;
+    font-weight: 700;
+}
+.cartQuantity{
+    position: absolute;
+    right: 9px;
+    color: rgb(5, 40, 66);
+    bottom: 20px;
+    font-weight: 900;
+    font-size: 18px;
+}
+
